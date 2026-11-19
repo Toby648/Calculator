@@ -1,4 +1,4 @@
-from calculator import add, subtract, multiply, divide
+from calculator import *
 
 def test_add():
     assert add(2, 3) == 5
@@ -17,3 +17,6 @@ def test_multiply():
 
 def test_multiply_by_0():
     assert multiply(64,0) == 0
+
+def test_circleArea():
+    assert circleArea(-4) == "Error"
